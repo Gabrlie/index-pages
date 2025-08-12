@@ -29,14 +29,14 @@ html,body,.container,.overlay {
     justify-content: center;
     position: relative;
     animation: logoEnter 1s;
-    background: url('https://bing.img.run/1920x1080.php') no-repeat;
+    background: url('https://bing.gabrlie.cn') no-repeat;
     background-size: cover;
 }
 
 
 @media screen and (orientation:portrait) {
 	.overlay {
-        background: url('https://bing.img.run/m.php') no-repeat;
+        background: url('https://bing.gabrlie.cn?resolution=mobile') no-repeat;
     }
 }
 
