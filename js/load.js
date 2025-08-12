@@ -4,10 +4,10 @@ let max_length = 30
 let min_length = 0
 if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
     // 当前设备是移动设备
-    picList = ['https://bing.img.run/m.php','https://gcore.jsdelivr.net/gh/Gabrlie/PicGo_Images/gabrlie.jpg']
+    picList = ['https://bing.gabrlie.cn/?resolution=mobile','https://gcore.jsdelivr.net/gh/Gabrlie/PicGo_Images/gabrlie.jpg']
     max_length = 12
 } else {
-    picList = ['https://bing.img.run/1920x1080.php','https://gcore.jsdelivr.net/gh/Gabrlie/PicGo_Images/gabrlie.jpg']
+    picList = ['https://bing.gabrlie.cn','https://gcore.jsdelivr.net/gh/Gabrlie/PicGo_Images/gabrlie.jpg']
     min_length = 12
 }
 
